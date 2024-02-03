@@ -1,10 +1,26 @@
 # Prerequisites
+
+## Execution
+
+### Native image
+
+- None
+
+### Java distrubition
+
+- Java 21
+
+## Compiling
 - Maven
 - Java 21
+- GraalVM for native image (optional)
 
 # Compiling
 Compile with maven:
 `mvn clean package`
+
+Compile native image with maven:
+`mvn clean package -Pnative`
 
 # Running
 Run with command, changing parameters where appropriate:
